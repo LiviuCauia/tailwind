@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    display: block;
+    font-size: 62.5%;
+    height: 100%;
+    background-color: #f3f3f3;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open sans','Helvetica','Arial',sans-serif;
+}
+
+.text-xl {
+    font-size: 1.3rem;
+}
+
+.border-r-1 {
+    border-right: 1px solid rgba(255,255,255,.3);
+}
+
+.leftt-1\/5 {
+    margin-left: 85%;
+}
+
