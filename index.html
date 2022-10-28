@@ -8,15 +8,16 @@
     <title>Simple Tailwind Starter</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
-    <body class="relative top-0 min-h-full">
+    <body class="top-0 h-full overflow-scroll">
             <!-- Hero Section -->
         <nav id="hero" class="flex flex-col items-center justify-center min-h-40 text-white bg-primary">
 
             <!-- First Nav -->
             
-           <div class="container lg flex flex-col justify-center items-center">
+           <div class="container flex flex-col justify-center items-center">
                 <div class="relative block w-full h-16 bg-primary">
                     <div class="absolute h-16 bg-secondary right-96">
                         <ul class="flex h-full items-center justify-end px-6 text-white">
@@ -34,7 +35,7 @@
 
                 <!-- Second nav -->
 
-            <div class="container lg flex flex-col justify-center items-center h-40">
+            <div class="container flex flex-col justify-center items-center h-40">
                 <div class="relative flex items-end justify-end w-full h-32 bg-primary ml-56">
                         <a href="#" class="mr-40">
                             <img src="images/favicon-32x32.png" alt="">
@@ -66,5 +67,142 @@
                 </div>
             </div>
         </nav>
+        <header class="flex items-center justify-center img-height bg-no-repeat bg-cover bg-center bg-[url('/images/background.jpg')]">
+            <div class="flex flex-col items-center justify-center text-white max-w-5xl w-full h-full py-48 px-16">
+                <div>
+                    <h1 class="text-9xl font-bold text-shadow text-center font-sans pb-10">HISTORIC ROYAL PALACES</h1>
+                </div>
+                <div class="p-subheading-w">
+                    <p class="text-center text-6xl text-shadow font-sans font-bold">WE ARE A TEAM OF PEOPLE WHO LOVE AND LOOK AFTER SIX OF THE MOST WONDERFUL PALACES IN THE WORLD</p>
+                </div>
+            </div>
+        </header>
+        <section class="flex items-center justify-center">
+            <div class="flex items-end justify-end text-white max-w-5xl w-full h-full pt-32">
+                <div class="w-8/12 h-full">
+                    <a href="#"><img src="images/image2.jpg" alt=""></a>
+                </div>
+                    <div class="bg-purple h-9/12 w-5/12">
+                        <div class="flex flex-col justify-center py-24 pl-40 pr-8">
+                            <h3 class="text-3xl "><a href="">LIFE THROUGH A ROYAL LENS</a></h3>
+                            <p class="font-sans font-bold text-left text-3xl my-10">Last chance: until 30 October</p>
+                            <p class="font-sans text-left text-3xl pb-10">Life Through a Royal Lens is an exhibition 
+                                exploring the Royal Family through photography and brings together some of the 
+                                most iconic images ever taken of the Royal Family to Kensington Palace.</p>
+                                <a href="#" class="w-64 bg-white text-black text-center text-xl px-14 py-4 button-radius border-black
+                                font-bold duration-150 border border-solid"><span class="">Learn more <i class="fa-solid fa-chevron-right"></i></span></a>
+                        </div>
+                 </div>
+            </div>
+        </section>
+        <section class="flex justify-center py-16">
+            <div class="max-w-5xl w-full h-full">
+                <h2 class="uppercase text-black font-bold text-5xl font-sans"><span class="">EXPLORE WHAT'S ON AT OUR PALACES <i class="fa-solid fa-chevron-right"></i></span></h2>
+            </div>
+        </section>
+
+        <!-- Cards -->
+
+      <div class="flex justify-center items-center wrap h-full">
+        <div class="flex max-w-5xl">
+        <div class="w-2/6">
+            <div class="w-full min-h-auto">
+                <div class="bg-white">
+                    <a href="#"><img src="images/image2.jpg" alt=""></a>
+                    <div class="text-black text-xl px-12 mt-4 font-sans uppercase">
+                        <span class="border-r-black-1 inline-block pr-3">Families</span>
+                        <span class="pl-2">Helloween</span>
+                    </div>
+                    <div class="text-black text-3xl px-12 mt-5 font-sans font-bold uppercase"><h3>Helloween at Hampton Court Palace 
+                        <i class="fa-solid fa-chevron-right"></i></h3></div>
+                    <div>
+                        <p class="text-black font-normal text-2xl px-12 mt-4 font-sans uppercase">Explore Henry VIII's notoriously haunted palace this Halloween.</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold uppercase px-12 py-6 border-t-black-1 border-b-black-1">
+                        <i class="fa-solid fa-solid fa-lg fa-calendar-days"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> 22 - 30 October</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold px-12 py-6">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> Hampton Court Palace</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold px-12 py-6 border-t-black-1 border-b-black-1">
+                        <i class="fa-solid fa-ticket-simple"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> Included in palace admission (members go free)</p>
+                    </div>
+                    <div class="flex justify-center items-center h-full mt-10 w-full px-14 py-4">
+                        <a href="#" class="w-full text-white bg-black text-center text-xl px-14 py-4 button-radius border-black
+                        font-bold duration-150 border border-solid"><span class="flex justify-between items-center text-3xl font-sans">Learn more <i class="fa-solid fa-chevron-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-2/6 mx-12">
+            <div class="w-full min-h-auto">
+                <div class="bg-white">
+                    <a href="#"><img src="images/image2.jpg" alt=""></a>
+                    <div class="text-black text-xl px-12 mt-4 font-sans uppercase">
+                        <span class="border-r-black-1 inline-block pr-3">Families</span>
+                        <span class="pl-2">Helloween</span>
+                    </div>
+                    <div class="text-black text-3xl px-12 mt-5 font-sans font-bold uppercase"><h3>Helloween at Hampton Court Palace 
+                        <i class="fa-solid fa-chevron-right"></i></h3></div>
+                    <div>
+                        <p class="text-black font-normal text-2xl px-12 mt-4 font-sans uppercase">Explore Henry VIII's notoriously haunted palace this Halloween.</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold uppercase px-12 py-6 border-t-black-1 border-b-black-1">
+                        <i class="fa-solid fa-solid fa-lg fa-calendar-days"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> 22 - 30 October</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold px-12 py-6">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> Hampton Court Palace</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold px-12 py-6 border-t-black-1 border-b-black-1">
+                        <i class="fa-solid fa-ticket-simple"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> Included in palace admission (members go free)</p>
+                    </div>
+                    <div class="flex justify-center items-center h-full mt-10 w-full px-14 py-4">
+                        <a href="#" class="w-full text-white bg-black text-center text-xl px-14 py-4 button-radius border-black
+                        font-bold duration-150 border border-solid"><span class="flex justify-between items-center text-3xl font-sans">Learn more <i class="fa-solid fa-chevron-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-2/6">
+            <div class="w-full min-h-auto">
+                <div class="bg-white">
+                    <a href="#"><img src="images/image2.jpg" alt=""></a>
+                    <div class="text-black text-xl px-12 mt-4 font-sans uppercase">
+                        <span class="border-r-black-1 inline-block pr-3">Families</span>
+                        <span class="pl-2">Helloween</span>
+                    </div>
+                    <div class="text-black text-3xl px-12 mt-5 font-sans font-bold uppercase"><h3>Helloween at Hampton Court Palace 
+                        <i class="fa-solid fa-chevron-right"></i></h3></div>
+                    <div>
+                        <p class="text-black font-normal text-2xl px-12 mt-4 font-sans uppercase">Explore Henry VIII's notoriously haunted palace this Halloween.</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold uppercase px-12 py-6 border-t-black-1 border-b-black-1">
+                        <i class="fa-solid fa-solid fa-lg fa-calendar-days"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> 22 - 30 October</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold px-12 py-6">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> Hampton Court Palace</p>
+                    </div>
+                    <div class="flex items-center text-black text-3xl mt-5 font-sans font-bold px-12 py-6 border-t-black-1 border-b-black-1">
+                        <i class="fa-solid fa-ticket-simple"></i>
+                        <p class="text-black font-normal text-xl font-sans pl-4"> Included in palace admission (members go free)</p>
+                    </div>
+                    <div class="flex justify-center items-center h-full mt-10 w-full px-14 py-4">
+                        <a href="#" class="w-full text-white bg-black text-center text-xl px-14 py-4 button-radius border-black
+                        font-bold duration-150 border border-solid"><span class="flex justify-between items-center text-3xl font-sans">Learn more <i class="fa-solid fa-chevron-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
     </body>
 </html>
